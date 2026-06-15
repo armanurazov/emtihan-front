@@ -1,7 +1,7 @@
 // Variant1.jsx — Complete IELTS Test: Variant 1
 import { useState, useEffect, useRef, useCallback } from "react";
 
-const API = import.meta.env.VITE_API_URL || "http://localhost:4000/api";
+const API = import.meta.env.VITE_API_URL || "https://emtihan-back-production.up.railway.app/api";
 const AUTOSAVE_INTERVAL = 30_000;
 
 const AUDIO_URLS = {
