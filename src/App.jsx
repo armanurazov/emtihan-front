@@ -1,6 +1,7 @@
 // App.jsx — IELTS Platform root: Login → Test Router
 import { useState, useEffect } from "react";
 import Variant1 from "./variants/Variant1";
+import Variant2 from "./variants/Variant2";
 // import Variant2 from "./variants/Variant2";  // add as you build them
 // ... Variant3..7
 
@@ -86,7 +87,7 @@ function LoginPage({ onLogin }) {
 // Maps variantId → Component
 const VARIANT_MAP = {
   1: Variant1,
-  // 2: Variant2,
+  2: Variant2,
   // 3: Variant3,
   // 4: Variant4,
   // 5: Variant5,
