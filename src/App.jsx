@@ -2,6 +2,7 @@
 import { useState, useEffect } from "react";
 import Variant1 from "./variants/Variant1";
 import Variant2 from "./variants/Variant2";
+import Variant3 from "./variants/Variant3";
 // import Variant2 from "./variants/Variant2";  // add as you build them
 // ... Variant3..7
 
@@ -88,7 +89,7 @@ function LoginPage({ onLogin }) {
 const VARIANT_MAP = {
   1: Variant1,
   2: Variant2,
-  // 3: Variant3,
+  3: Variant3,
   // 4: Variant4,
   // 5: Variant5,
   // 6: Variant6,
