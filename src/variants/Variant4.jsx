@@ -6,10 +6,10 @@ const API = import.meta.env.VITE_API_URL || "https://emtihan-back-production.up.
 const AUTOSAVE_INTERVAL = 30_000;
 
 const AUDIO_URLS = {
-  1: "https://wasfkxcfwzycuavrhvgs.supabase.co/storage/v1/object/public/audio/var-4-listening-part1.mp3",
-  2: "https://wasfkxcfwzycuavrhvgs.supabase.co/storage/v1/object/public/audio/var-4-listening-part2.mp3",
-  3: "https://wasfkxcfwzycuavrhvgs.supabase.co/storage/v1/object/public/audio/var-4-listening-part3.mp3",
-  4: "https://wasfkxcfwzycuavrhvgs.supabase.co/storage/v1/object/public/audio/var-4-listening-part4.mp3",
+  1: "https://wasfkxcfwzycuavrhvgs.supabase.co/storage/v1/object/public/audio/var4-listening-part1.mp3",
+  2: "https://wasfkxcfwzycuavrhvgs.supabase.co/storage/v1/object/public/audio/var4-listening-part2.mp3",
+  3: "https://wasfkxcfwzycuavrhvgs.supabase.co/storage/v1/object/public/audio/var4-listening-part3.mp3",
+  4: "https://wasfkxcfwzycuavrhvgs.supabase.co/storage/v1/object/public/audio/var4-listening-part4.mp3",
 };
 
 const WRITING_IMAGE = "https://wasfkxcfwzycuavrhvgs.supabase.co/storage/v1/object/public/images/var-4.png";
