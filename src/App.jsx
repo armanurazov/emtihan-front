@@ -4,6 +4,7 @@ import Variant1 from "./variants/Variant1";
 import Variant2 from "./variants/Variant2";
 import Variant3 from "./variants/Variant3";
 import Variant4 from "./variants/Variant4";
+import Variant5 from "./variants/Variant5";
 // import Variant2 from "./variants/Variant2";  // add as you build them
 // ... Variant3..7
 
@@ -92,7 +93,7 @@ const VARIANT_MAP = {
   2: Variant2,
   3: Variant3,
   4: Variant4,
-  // 5: Variant5,
+  5: Variant5,
   // 6: Variant6,
   // 7: Variant7,
 };
