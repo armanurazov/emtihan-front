@@ -5,8 +5,9 @@ import Variant2 from "./variants/Variant2";
 import Variant3 from "./variants/Variant3";
 import Variant4 from "./variants/Variant4";
 import Variant5 from "./variants/Variant5";
-// import Variant2 from "./variants/Variant2";  // add as you build them
-// ... Variant3..7
+import Variant6 from "./variants/Variant6";
+import Variant7 from "./variants/Variant7";
+
 
 const API = import.meta.env.VITE_API_URL || "https://emtihan-back-production.up.railway.app/api";
 
@@ -94,8 +95,8 @@ const VARIANT_MAP = {
   3: Variant3,
   4: Variant4,
   5: Variant5,
-  // 6: Variant6,
-  // 7: Variant7,
+  6: Variant6,
+  7: Variant7,
 };
 
 function TestRouter({ user, token }) {
